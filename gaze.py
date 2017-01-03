@@ -1,5 +1,4 @@
-#ece kamer takmaz
-#ecekt028@gmail.com
+#ece k.t.
 import numpy as np
 
 #column indices of attributes, check csv file
