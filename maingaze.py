@@ -53,7 +53,7 @@ for u in user_ids:
     for q in range(1,11): #starts from 1 up to 10, both inclusive
         
         sub_data = get_subset(data, q, u) #this is a list
-        sub2d = np.asarray(sub_data).reshape(len(sub_data),no_of_columns) #this is a np array
+        sub2d = np.asarray(sub_data).reshape(len(sub_data),no_of_columns) #this is a numpy array
 
         print len(sub2d)
                 
