@@ -39,7 +39,7 @@ def ivt(data, v_threshold):
 
     velocity = dif / tdif
     #print velocity in pix/sec
-    print tdif
+    #print tdif
 
     mvmts = [] #length is len(data)-1
     
