@@ -3,6 +3,7 @@
 *Added group dispersion analysis*
 
 **GAZE IDENTIFICATION**
+
 maingaze.py is the main file to call.
 gaze.py includes implementations for the I-DT and I-VT algorithms, as given in http://dl.acm.org/citation.cfm?id=355028.
 
@@ -19,6 +20,7 @@ Now, it is possible to select the algorithm to use through command line. (Select
 python maingaze.py "raw_decision.csv" 20 20 100 "fix.txt" 10 "ivt"
 
 **GROUP DISPERSION**
+
 Utilizing an artificial data set composed of some parts of the data used in gaze identification, this code implements an analysis of group behaviour in multi-user eye-tracking studies. 
 
 Based on the I-DT algorithm, it is possible to detect the dispersion of users in the same frame or a window of several frames, via indicating the number of data points in a window. 
