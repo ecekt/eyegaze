@@ -1,6 +1,6 @@
 # eyegaze
 
-*Added group dispersion analysis*
+* *Added group dispersion analysis*
 
 **GAZE IDENTIFICATION**
 
@@ -21,11 +21,11 @@ python maingaze.py "raw_decision.csv" 20 20 100 "fix.txt" 10 "ivt"
 
 **GROUP DISPERSION**
 
-Utilizing an artificial data set composed of some parts of the data used in gaze identification, this code implements an analysis of group behaviour in multi-user eye-tracking studies. 
+Utilizing an artificial data set composed of some parts of the data used in gaze identification, this code implements an analysis of group behaviour in multi-user eye-tracking studies. You can check an example output, which is provided in "group.txt".
 
 Based on the I-DT algorithm, it is possible to detect the dispersion of users in the same frame or a window of several frames, via indicating the number of data points in a window. 
 
-Dispersion values for each window for each group per question, are written into the file. In addition, overall dispersion values are also listed.
+Dispersion values for each window for each group per question, are written into a file. In addition, overall dispersion values are also listed.
 
 The output includes the coordinates of the centroids for each window and overall mean values of the X and Y coordinates of the overall centroid. 
 
